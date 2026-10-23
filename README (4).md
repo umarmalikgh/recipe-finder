@@ -2,7 +2,8 @@
 
 A recipe search app built with vanilla HTML, CSS and JavaScript, using the free [TheMealDB](https://www.themealdb.com/api.php) API.
 
-**Live demo:** _add your GitHub Pages / Netlify link here_
+**Live demo:** https://umarmalikgh.github.io/recipe-finder/
+github: https://github.com/umarmalikgh/recipe-finder
 
 ## Features
 
