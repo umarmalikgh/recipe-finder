@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Recipe Finder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <h1>Recipe Finder</h1>
+
+    <form id="search-form">
+      <input id="query" type="search" placeholder="Search recipes, e.g. pasta" aria-label="Search recipes">
+      <select id="category" aria-label="Browse by category">
+        <option value="">Browse by category</option>
+      </select>
+      <button type="submit" class="primary">Search</button>
+      <button type="button" id="random">Surprise me</button>
+    </form>
+
+    <div class="tabs">
+      <button type="button" id="tab-results" aria-pressed="true">Results</button>
+      <button type="button" id="tab-favs" aria-pressed="false">Favourites (<span id="fav-count">0</span>)</button>
+    </div>
+
+    <p id="status" role="status"></p>
+    <div id="grid" class="grid"></div>
+  </main>
+
+  <dialog id="modal"></dialog>
+  <script src="script.js"></script>
+</body>
+</html>
